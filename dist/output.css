@@ -921,7 +921,7 @@ video {
 }
 
 .bg-hero {
-  background-image: url(/assets/hero/bg.jpg);
+  background-image: url(../assets/hero/bg.jpg);
 }
 
 .bg-fixed {
@@ -1187,6 +1187,7 @@ h6 {
   .sm\:rounded-\[70px\] {
     border-radius: 70px;
   }
+   
 }
 
 @media (min-width: 960px) {
@@ -1338,5 +1339,11 @@ h6 {
 
   .xl\:text-left {
     text-align: left;
+  }
+}
+
+@media (max-width: 640px) {
+  .h1 {
+    font-size: 35px;
   }
 }
